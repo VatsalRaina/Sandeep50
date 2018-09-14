@@ -11,7 +11,7 @@ questions=[
     {
         'question': 'my second question',
         'A': 'option A',
-        'B': 'option B',
+        'B': 'option B mate',
         'C': 'option C',
         'D': 'option D',
         'correct': 'A'
