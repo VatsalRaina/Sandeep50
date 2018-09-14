@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" type ="text/css" href="quiz.css" />
+    </head>
+
+    <body>
+        <div class="overall-container">
+            <div class="left">
+                <img />
+            </div>
+            <div class="centre">
+                <h1>SO, HOW WELL DO YOU KNOW SANDEEP?</h1>
+                <button id = "openModalButton" >
+                    Take Quiz
+                </button>
+            </div>
+            <div class="right">
+                <label>Top 5</label>
+            </div>
+        </div>
+
+        <!--The Modal-->
+        <div id="modal" class="modal">
+            <!--Modal content-->
+            <div class = "modal-content">
+
+                <h2 id="modal-header">QUESTION</h2>
+
+                <div class = "modal-flex-container">
+                    
+                    <label id="question">
+                        This is a sample question
+                    </label>
+
+                    <div class = "row">
+                        <label id="A" onclick="answerMade(this)">A</label>
+                        <label id ="B" onclick="answerMade(this)">B</label>
+                    </div>
+
+                    <div class = "row">
+                        <label id="C" onclick="answerMade(this)">C</label>
+                        <label id ="D" onclick="answerMade(this)">D</label>
+                    </div>
+
+                </div>
+                <button id = "exitModalButton">
+                    Giveup
+                </button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="questions.js"></script>
+        <script type="text/javascript" src="quiz.js"></script>
+ 
+
+    </body>
+</html>

@@ -1,0 +1,97 @@
+.overall-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border: 2em;
+}
+
+h1{
+    align-content: center;
+}
+
+h2{
+    align-content: center;
+}
+
+.left{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.centre{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.right{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+#openModalButton{
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    height: 40%;
+}
+
+#question{
+    border: 1px solid black;
+    width: 72%;
+    height: 15%;
+    align-self: center;
+    text-align: center;
+    padding: 0.5%;
+    margin: 1%;
+}
+
+.modal-flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.row label{
+    border: 1px solid black;
+    width: 30%;
+    height: 10%;
+    padding: 0.5%;
+    text-align: left;
+}
