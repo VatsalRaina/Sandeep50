@@ -3,6 +3,9 @@
 //set an overall counter for the question number
 var questionCounter = 0;
 
+//global variable for number of questions
+const LAST = 10;
+
 // Get the modal
 var modal = document.getElementById('modal');
 
@@ -43,10 +46,15 @@ function answerMade(answer){
     if(answer.id==questions[questionCounter].correct){
         answer.style.backgroundColor="green";
 
-        //check to see if this is the last question
-
         //logic to move forward
         questionCounter=questionCounter+1;
+
+        //check to see this is last question
+        if(questionCounter==LAST){
+            //deal with end scenario
+            window.alert("YOU ARE DONE! Congratulations you must be very close to Sandeep to know him so well.")
+        }
+
         displayQuestion();
         //clear color of all labels
         answer.style.backgroundColor="white";
