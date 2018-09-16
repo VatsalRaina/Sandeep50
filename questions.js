@@ -1,10 +1,10 @@
 questions=[
     {
-        'question': 'my first question',
-        'A': 'option A',
-        'B': 'option B',
-        'C': 'option C',
-        'D': 'option D',
+        'question': 'What year was Sandeep born in?',
+        'A': '1968',
+        'B': '1972',
+        'C': '1967',
+        'D': '1969',
         'correct': 'A'
     },
 
