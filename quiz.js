@@ -44,8 +44,23 @@ function answerMade(answer){
 
     //check to see if the answer is correct
     if(answer.id==questions[questionCounter].correct){
-        answer.style.backgroundColor="green";
 
+        window.setTimeout(correct,1000,answer);
+        answer.style.backgroundColor="green";
+    }
+    else{
+        //logic to exit game and save the user's score
+        answer.style.backgroundColor="red";
+        
+        window.alert("Incorrect answer!");
+        // window.alert("You got a score of ");
+        // modal.style.display="none";
+        //refresh page
+    }
+}
+
+function correct(answer){
+    
         //logic to move forward
         questionCounter=questionCounter+1;
 
@@ -58,14 +73,8 @@ function answerMade(answer){
         displayQuestion();
         //clear color of all labels
         answer.style.backgroundColor="white";
+}
 
-    }
-    else{
-        //logic to exit game and save the user's score
-        answer.style.backgroundColor="red";
-        // window.alert("Incorrect answer!");
-        // window.alert("You got a score of ");
-        // modal.style.display="none";
-        //refresh page
-    }
+function flashWrong(answer){
+
 }
