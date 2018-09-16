@@ -23,6 +23,8 @@ btn.onclick = function() {
 // When the user clicks on close button, close the modal
 close.onclick = function() {
     modal.style.display = "none";
+    window.alert("you got a score of "+questionCounter);
+    location.reload();
 }
 
 //function to display current question
@@ -50,12 +52,8 @@ function answerMade(answer){
     }
     else{
         //logic to exit game and save the user's score
+        window.setTimeout(wrong,1000);
         answer.style.backgroundColor="red";
-        
-        window.alert("Incorrect answer!");
-        // window.alert("You got a score of ");
-        // modal.style.display="none";
-        //refresh page
     }
 }
 
@@ -75,6 +73,9 @@ function correct(answer){
         answer.style.backgroundColor="white";
 }
 
-function flashWrong(answer){
-
+function wrong(){
+    window.alert("Gameover");
+    window.alert("You got a score of "+questionCounter);
+    modal.style.display="none";
+    location.reload();
 }
