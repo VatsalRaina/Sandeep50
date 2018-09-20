@@ -16,7 +16,7 @@
   box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
   border-radius: 2px;
 }
-.button {
+.buttonQuiz {
   background: #3D4C53;
   margin : 20px auto;
   width : 200px;
@@ -106,12 +106,12 @@ h2{
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #DFD5ED;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 60%; /* Could be more or less, depending on screen size */
-    height: 40%;
+    border-radius: 5%;
 }
 
 #question{
@@ -157,4 +157,51 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.options-flex-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.options-flex-submain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.optionButton{
+    margin: 1%;
+    width: 50%;
+    height: 15%;
+    border-radius: 30%;
+}
+
+.optionsLabels{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+}
+
+#Youth{
+    background-color: chartreuse;
+}
+
+#Home-Life{
+    background-color: #41d3f4;
+}
+
+#Lifestyle-and-Culture{
+    background-color: rgb(255, 0, 157);
+}
+
+#Work-Life{
+    background-color: rgb(0, 17, 255);
+}
+
+#Miscellaneous{
+    background-color: rgb(255, 0, 0);
 }

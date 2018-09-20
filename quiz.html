@@ -11,7 +11,7 @@
             <div class="centre">
                 <h1>SO, HOW WELL DO YOU KNOW SANDEEP?</h1>
                 <img src="wordCloud.PNG" class = "wordCloud" />
-                    <div class="button" id="openModalButton">
+                    <div class="buttonQuiz" id="openModalButton" onclick="openOptionsModal()">
                         <p class="btnText">Take Quiz</p>
                         <div class="btnTwo">
                         <p class="btnText2">GO</p>
@@ -32,11 +32,12 @@
             </div>
         </div>
 
-        <!--The Modal-->
-        <div id="modal" class="modal">
+        <!--The Questions Modal-->
+        <div id="modalQuestions" class="modal">
             <!--Modal content-->
             <div class = "modal-content">
 
+                <h2 id="modal-title">Title</h2>
                 <h2 id="modal-header">QUESTION</h2>
 
                 <div class = "modal-flex-container">
@@ -56,11 +57,87 @@
                     </div>
 
                 </div>
-                <button id = "exitModalButton">
+                <button id = "giveupButton" onclick="giveup()">
                     Giveup
                 </button>
             </div>
         </div>
+
+
+        <!--The Options Modal-->
+        <div id="modalOptions" class="modal">
+            <!--Modal content-->
+            <div class = "modal-content">
+
+                <div class = "options-flex-main">
+
+                    <div class = "options-flex-submain">
+
+                        <button
+                            class = "optionButton" 
+                            id = "Youth"
+                            onclick="openQuestionsModal(this)">
+                            Youth
+                        </button>
+
+                        <label class = "optionsLabels" id = "label 0">/10</label>
+                    </div>
+
+                    <div class = "options-flex-submain">
+                        <button 
+                            class = "optionButton"  
+                            id = "Home-Life"
+                            onclick="openQuestionsModal(this)">
+                            Home Life
+                        </button>
+
+                        <label class = "optionsLabels" id = "label 1">/10</label>
+                    </div>
+
+                    <div class = "options-flex-submain">
+                        <button 
+                            class = "optionButton"  
+                            id = "Lifestyle-and-Culture"
+                            onclick="openQuestionsModal(this)">
+                            Lifestyle and Culture
+                        </button>
+
+                        <label class = "optionsLabels" id = "label 2">/10</label>
+                    </div>
+
+                    <div class = "options-flex-submain">
+                        <button
+                            class = "optionButton"  
+                            id = "Work-Life"
+                            onclick="openQuestionsModal(this)">
+                            Work Life
+                        </button>
+
+                        <label class = "optionsLabels" id = "label 3">/10</label>
+                    </div>
+
+                    <div class = "options-flex-submain">
+                        <button 
+                            class = "optionButton" 
+                            id = "Miscellaneous"
+                            onclick="openQuestionsModal(this)">
+                            Miscellaneous
+                        </button>
+                                                    
+                        <label class = "optionsLabels" id = "label 4">/10</label>
+                    </div>
+                 </div>
+
+                <button 
+                    id = "Quit"
+                    onclick="quit()">
+                    Quit
+                </button>
+                
+
+            </div>
+        </div>
+
 
         <script type="text/javascript" src="questions.js"></script>
         <script type="text/javascript" src="quiz.js"></script>
