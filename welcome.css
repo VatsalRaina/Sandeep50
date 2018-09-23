@@ -2,7 +2,7 @@ body {background-color: #1c5868;}
 
 .Title {
   width: 900px;
-  font-size: 70px;
+  font-size: 60px;
   font-family: 'Chewy', cursive;
   font-weight: bolder;
   text-align: center;
@@ -12,6 +12,10 @@ body {background-color: #1c5868;}
   border-width: 5px;
   border-radius: 50px;
   text-shadow: 3px 3px #FF0000;
+}
+
+.links {
+  background-color: darkred;
 }
 
 .row {
@@ -133,4 +137,44 @@ img {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
