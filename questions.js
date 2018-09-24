@@ -3,16 +3,16 @@ data= [
         'category': 'Youth',
         'categoryQuestions': [
             {
-                'question': 'In which year was MLK assassinated and Sandeep born?',
-                'A': '1968',
-                'B': '1972',
-                'C': '1967',
-                'D': '1969',
+                'question': 'Who was assassinated in the year Sandeep was born?',
+                'A': 'Martin Luther King',
+                'B': 'Mahatma Gandhi',
+                'C': 'Desmond Tutu',
+                'D': 'Nelson Mandela',
                 'correct': 'A'
             },
         
             {
-                'question': 'What was Sandeep\'s pet name at home?',
+                'question': 'What was Sandeep\'s (or should I say Ypmid\'s) pet name at home?',
                 'A': 'Dimple',
                 'B': 'Patlu',
                 'C': 'Dimpy',
@@ -21,16 +21,16 @@ data= [
             },
         
             {
-                'question': 'What was Sandeep\'s nickname at University?',
+                'question': 'What was Sandeep\'s (coastal) nickname at University?',
                 'A': 'Rocky',
                 'B': 'Deep',
                 'C': 'Sandy',
-                'D': 'Rhino',
+                'D': 'Groyne',
                 'correct': 'C'
             },
         
             {
-                'question': 'Which primary school did Sandeep go to?',
+                'question': 'Which institution schooled Dimpy as a young Kashmiri lad?',
                 'A': 'St Paul\'s',
                 'B': 'Baramulla Primary',
                 'C': 'St Joseph\'s',
