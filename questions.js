@@ -41,23 +41,23 @@ data= [
             {
                 'question': 'Name the river flowing through the city of Sandeep\'s University?',
                 'A': 'Ravi',
-                'B': 'Chenab',
-                'C': 'Jhelum',
+                'B': 'Jhelum',
+                'C': 'Chenab',
                 'D': 'Bhramaputra',
+                'correct': 'B'
+            },
+        
+            {
+                'question': 'Due to his days as a scout, Sandeep knows morse code.',
+                'A': '... -.. / .- ... / ..-',
+                'B': '.- ... / -.. ..-. / .-',
+                'C': '... --- / -.. --- / ..',
+                'D': '.- ... / -.. ..-. / .-',
                 'correct': 'C'
             },
         
             {
-                'question': 'my sixth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
-            },
-        
-            {
-                'question': 'my seventh question',
+                'question': 'sdfsfd',
                 'A': 'option A',
                 'B': 'option B',
                 'C': 'option C',
@@ -134,12 +134,12 @@ data= [
             },
         
             {
-                'question': 'my fifth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Mother Teresa and Diana move on! Kasparov\'s king is trapped! Blair is elected! But, what is the biggest news for Sandeep?' ,
+                'A': 'Move to Turkey',
+                'B': 'Double Trouble is born',
+                'C': 'Marriage',
+                'D': 'Daughter enters secondary school',
+                'correct': 'B'
             },
         
             {
@@ -220,20 +220,20 @@ data= [
             },
         
             {
-                'question': 'my fourth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Sandeep is fluent in 4 languages and pretty good at 2 others. Sen Türkçe anlıyor musun?',
+                'A': 'Yok hayır',
+                'B': 'Evet',
+                'C': 'Sadece ingilizce',
+                'D': 'Ben değilim',
+                'correct': 'B'
             },
         
             {
-                'question': 'my fifth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'Sandeep\'s culinary skills are not to be forgotten. Which dish would you ask Sandeep to cook for you if you wanted to experience his speciality (other than his omelette ofcourse)?',
+                'A': 'Biryani',
+                'B': 'Paella',
+                'C': 'Aloo Gobi',
+                'D': 'Lasagne',
                 'correct': 'A'
             },
         
@@ -419,12 +419,12 @@ data= [
             },
         
             {
-                'question': 'Sandeep knows morse code.',
-                'A': '... -.. / .- ... / ..-',
-                'B': '.- ... / -.. ..-. / .-',
-                'C': '... --- / -.. --- / ..',
-                'D': '.- ... / -.. ..-. / .-',
-                'correct': 'C'
+                'question': 'How many Sandeep\'s would you need to completely fill an empty planet the size of Earth?',
+                'A': '1',
+                'B': '100',
+                'C': '100,000',
+                'D': '10 million',
+                'correct': 'A'
             },
         
             {
