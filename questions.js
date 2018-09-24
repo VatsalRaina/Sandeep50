@@ -211,12 +211,12 @@ data= [
             },
         
             {
-                'question': 'my third question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Writing is one of Sandeep\'s favourite hobbies. Name the newspaper, the fourth largest in a nation of 1 billion, that frequently publishes Sandeep\'s articles',
+                'A': 'The Metro',
+                'B': 'PLA Daily',
+                'C': 'Danik Jagran',
+                'D': 'The Times of India',
+                'correct': 'D'
             },
         
             {
@@ -383,7 +383,7 @@ data= [
         'category': 'Miscellaneous',
         'categoryQuestions': [
             {
-                'question': 'What is Sandeep\'s favourite colour?',
+                'question': 'What is Sandeep\'s favourite colour? This colour has a wavelength of 470 nm',
                 'A': 'Red',
                 'B': 'Blue',
                 'C': 'Black',
@@ -392,39 +392,39 @@ data= [
             },
         
             {
-                'question': 'my second question',
-                'A': 'option A',
-                'B': 'option B mate',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'Which element has the same number of protons as Sandeep has lived years?',
+                'A': 'Tin',
+                'B': 'Gold',
+                'C': 'Neon',
+                'D': 'Einstenium',
                 'correct': 'A'
             },
         
             {
-                'question': 'my third question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'What do you call a shape with as many sides as the number of candles placed on the cake on 27th October this year?',
+                'A': 'circle',
+                'B': 'Pentahedron',
+                'C': 'Pentacosagon',
+                'D': 'Pentacontagon',
+                'correct': 'D'
             },
         
             {
-                'question': 'my fourth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'How many points is SANDEEP worth in a game of scrabble?',
+                'A': '14',
+                'B': '10',
+                'C': '8',
+                'D': '7',
+                'correct': 'B'
             },
         
             {
-                'question': 'my fifth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Sandeep knows morse code.',
+                'A': '... -.. / .- ... / ..-',
+                'B': '.- ... / -.. ..-. / .-',
+                'C': '... --- / -.. --- / ..',
+                'D': '.- ... / -.. ..-. / .-',
+                'correct': 'C'
             },
         
             {
