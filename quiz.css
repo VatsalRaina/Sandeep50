@@ -110,6 +110,7 @@ h2{
     text-align: center;
     padding: 0.5%;
     margin: 1%;
+    padding-top: 10%;
 }
 
 .modal-flex-container{
@@ -132,7 +133,8 @@ h2{
     width: 30%;
     height: 10%;
     padding: 0.5%;
-    text-align: left;
+    text-align: center;
+    padding-top: 10%;
 }
 
 #scores{
@@ -203,4 +205,6 @@ h2{
 
 .QuizLabels{
     background-color: aqua;
+    border-radius: 10%;
+    align-self: center;
 }
