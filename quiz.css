@@ -70,24 +70,12 @@ h2{
     align-content: center;
 }
 
-.left{
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 5px;
-}
-
 .centre{
     border-style: solid;
     border-width: 3px;
     border-radius: 5px;
     align-content: center;
     background-color: #41d3f4;
-}
-
-.right{
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 5px;
 }
 
 /* The Modal (background) */
@@ -157,6 +145,13 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.papaPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
 
 .options-flex-main{
