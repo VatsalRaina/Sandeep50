@@ -220,11 +220,11 @@ data= [
             },
         
             {
-                'question': 'Sandeep is fluent in 4 languages and pretty good at 2 others. Sen Türkçe anlıyor musun?',
-                'A': 'Yok hayır',
+                'question': 'Sandeep is fluent in 4 languages and pretty good at 2 others. Sen Turkce anliyor musun?',
+                'A': 'Yok hayir',
                 'B': 'Evet',
                 'C': 'Sadece ingilizce',
-                'D': 'Ben değilim',
+                'D': 'Ben degilim',
                 'correct': 'B'
             },
         
@@ -234,7 +234,7 @@ data= [
                 'B': 'Paella',
                 'C': 'Aloo Gobi',
                 'D': 'Lasagne',
-                'correct': 'A'
+                'correct': 'C'
             },
         
             {
