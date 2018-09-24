@@ -116,21 +116,21 @@ data= [
             },
         
             {
-                'question': 'my third question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Whilst Jurassic Park and Schindler\'s List dominated the cinemas, Sandeep had his first child. What year was this?',
+                'A': '1990',
+                'B': '1993',
+                'C': '1995',
+                'D': '1994',
+                'correct': 'B'
             },
         
             {
-                'question': 'my fourth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': '26 years ago, Sandeep\'s life was changed dramatically forever by a special someone- a young doctor- his wife (and life)! How old was Sandeep when he first met her?',
+                'A': '21',
+                'B': '19',
+                'C': '14',
+                'D': '6',
+                'correct': 'C'
             },
         
             {
@@ -193,7 +193,7 @@ data= [
         'category': 'Lifestyle-and-Culture',
         'categoryQuestions': [
             {
-                'question': 'Translated into English the name of Sandeep\'s favourite show is: Life is fruitful. What is the country of origin of this show??',
+                'question': 'Translated into English, the name of Sandeep\'s favourite show is: Life is fruitful. What is the country of origin of this show?',
                 'A': 'Pakistan',
                 'B': 'India',
                 'C': 'Russia',
