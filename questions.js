@@ -57,21 +57,21 @@ data= [
             },
         
             {
-                'question': 'sdfsfd',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'In which programming language did Sandeep create computer games? For the more technically inclined, this is a proceedural language!',
+                'A': 'Pascal',
+                'B': 'Python',
+                'C': 'C',
+                'D': 'Ruby',
                 'correct': 'A'
             },
         
             {
-                'question': 'my eight question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'She was born in 1897. She hit the 10,000 word mark daily. She stole young Sandeep\'s time - hours in the winter! Who was this?' ,
+                'A': 'Maclean',
+                'B': 'Christie',
+                'C': 'Forsyth',
+                'D': 'Blyton',
+                'correct': 'D'
             },
         
             {
