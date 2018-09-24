@@ -100,14 +100,14 @@ function correct(answer){
 
         displayQuestion();
         //clear color of all labels
-        answer.style.backgroundColor="white";
+        answer.style.backgroundColor="aqua";
 }
 
 function wrong(answer){
     modalQuestions.style.display="none";
     modalOptions.style.display ="block";
-            //clear color of all labels
-            answer.style.backgroundColor="white";
+    //clear color of all labels
+    answer.style.backgroundColor="aqua";
     scores[option] = questionCounter;
     updateScore();
 }

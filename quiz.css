@@ -95,7 +95,7 @@ h2{
 /* Modal Content/Box */
 .modal-content {
     background-color: #DFD5ED;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 8% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 60%; /* Could be more or less, depending on screen size */
@@ -199,4 +199,8 @@ h2{
 
 #Miscellaneous{
     background-color: rgb(255, 0, 0);
+}
+
+.QuizLabels{
+    background-color: aqua;
 }

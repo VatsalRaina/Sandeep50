@@ -12,21 +12,21 @@ data= [
             },
         
             {
-                'question': 'my second question',
-                'A': 'option A',
-                'B': 'option B mate',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'What was Sandeep\'s pet name at home?',
+                'A': 'Dimple',
+                'B': 'Patlu',
+                'C': 'Dimpy',
+                'D': 'Motu',
+                'correct': 'C'
             },
         
             {
-                'question': 'my third question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'What was Sandeep\'s nickname at University?',
+                'A': 'Rocky',
+                'B': 'Deep',
+                'C': 'Sandy',
+                'D': 'Rhino',
+                'correct': 'C'
             },
         
             {
