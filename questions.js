@@ -75,21 +75,21 @@ data= [
             },
         
             {
-                'question': 'my ninth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Where was Sandeep born? It may be helpful to know that this city has a population of 500,000.',
+                'A': 'Srinagar',
+                'B': 'Jammu',
+                'C': 'Chandigarh',
+                'D': 'Shimla',
+                'correct': 'B'
             },
         
             {
-                'question': 'my tenth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Where did Sandeep take his newly wed wife Anita for their OHOOYEMNN ---(you will have to decipher this anagram).',
+                'A': 'Karachi',
+                'B': 'Udaipur',
+                'C': 'Dhaka',
+                'D': 'Kathmandu',
+                'correct': 'B'
             }
         ]
     },
@@ -143,11 +143,11 @@ data= [
             },
         
             {
-                'question': 'my sixth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'Sandeep was once labelled as a "fruit monster" at work. But, which is his favourite? It may be useful to know that 25% of the volume of this fruit is air!',
+                'A': 'Apples',
+                'B': 'Pears',
+                'C': 'Oranges',
+                'D': 'Melons',
                 'correct': 'A'
             },
         
@@ -238,11 +238,11 @@ data= [
             },
         
             {
-                'question': 'my sixth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'Having grown up in the vicinity of the Himalayan mountains, Sandeep loves walks in the nature. Fortunately, his current home is at the foot of Box Hill. Can you guess where the name of this hill comes from (Sandeep may have told you)? ',
+                'A': 'Box trees/shrubs grow on the hill',
+                'B': 'The hill is almost cubic in shape',
+                'C': 'Box was the name of the people who lived there',
+                'D': 'Bunker Operation X was its code name in WW2',
                 'correct': 'A'
             },
         
@@ -464,12 +464,12 @@ data= [
             },
         
             {
-                'question': 'my tenth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Now to see how obervant you are! What was the wavelength of the colour blue?',
+                'A': '700 nm',
+                'B': '530 nm',
+                'C': '470 nm',
+                'D': '390 nm',
+                'correct': 'C'
             }
         ]
     }
