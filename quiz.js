@@ -1,3 +1,6 @@
+//global variable for overall score
+var tot = 0;
+
 //set an overall counter for the question number
 var questionCounter = 0;
 
@@ -123,4 +126,8 @@ function updateScore() {
     } else {
         lbl.style.textShadow = '2px 2px 8px #A5D158';
     }
+
+    //overall score
+    tot = tot + scores[option];
+    document.getElementById('total').innerHTML = 'TOTAL: ' + tot;
 }
