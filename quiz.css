@@ -208,3 +208,8 @@ h2{
     border-radius: 10%;
     align-self: center;
 }
+
+.total{
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    text-transform: uppercase;
+}

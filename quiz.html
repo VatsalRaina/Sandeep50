@@ -55,64 +55,68 @@
             <!--Modal content-->
             <div class = "modal-content">
 
+                <label class = "total">Total: 0</label>
+
                 <div class = "options-flex-main">
 
-                    <div class = "options-flex-submain">
+                        <div class = "options-flex-submain">
+    
+                            <button
+                                class = "optionButton" 
+                                id = "Youth"
+                                onclick="openQuestionsModal(this)">
+                                Youth
+                            </button>
+    
+                            <label class = "optionsLabels" id = "label 0">/10</label>
+                        </div>
+    
+                        <div class = "options-flex-submain">
+                            <button 
+                                class = "optionButton"  
+                                id = "Home-Life"
+                                onclick="openQuestionsModal(this)">
+                                Home Life
+                            </button>
+    
+                            <label class = "optionsLabels" id = "label 1">/10</label>
+                        </div>
+    
+                        <div class = "options-flex-submain">
+                            <button 
+                                class = "optionButton"  
+                                id = "Lifestyle-and-Culture"
+                                onclick="openQuestionsModal(this)">
+                                Lifestyle and Culture
+                            </button>
+    
+                            <label class = "optionsLabels" id = "label 2">/10</label>
+                        </div>
+    
+                        <div class = "options-flex-submain">
+                            <button
+                                class = "optionButton"  
+                                id = "Work-Life"
+                                onclick="openQuestionsModal(this)">
+                                Work Life
+                            </button>
+    
+                            <label class = "optionsLabels" id = "label 3">/10</label>
+                        </div>
+    
+                        <div class = "options-flex-submain">
+                            <button 
+                                class = "optionButton" 
+                                id = "Miscellaneous"
+                                onclick="openQuestionsModal(this)">
+                                Miscellaneous
+                            </button>
+                                                        
+                            <label class = "optionsLabels" id = "label 4">/10</label>
+                        </div>
+                </div>
 
-                        <button
-                            class = "optionButton" 
-                            id = "Youth"
-                            onclick="openQuestionsModal(this)">
-                            Youth
-                        </button>
-
-                        <label class = "optionsLabels" id = "label 0">/10</label>
-                    </div>
-
-                    <div class = "options-flex-submain">
-                        <button 
-                            class = "optionButton"  
-                            id = "Home-Life"
-                            onclick="openQuestionsModal(this)">
-                            Home Life
-                        </button>
-
-                        <label class = "optionsLabels" id = "label 1">/10</label>
-                    </div>
-
-                    <div class = "options-flex-submain">
-                        <button 
-                            class = "optionButton"  
-                            id = "Lifestyle-and-Culture"
-                            onclick="openQuestionsModal(this)">
-                            Lifestyle and Culture
-                        </button>
-
-                        <label class = "optionsLabels" id = "label 2">/10</label>
-                    </div>
-
-                    <div class = "options-flex-submain">
-                        <button
-                            class = "optionButton"  
-                            id = "Work-Life"
-                            onclick="openQuestionsModal(this)">
-                            Work Life
-                        </button>
-
-                        <label class = "optionsLabels" id = "label 3">/10</label>
-                    </div>
-
-                    <div class = "options-flex-submain">
-                        <button 
-                            class = "optionButton" 
-                            id = "Miscellaneous"
-                            onclick="openQuestionsModal(this)">
-                            Miscellaneous
-                        </button>
-                                                    
-                        <label class = "optionsLabels" id = "label 4">/10</label>
-                    </div>
-                 </div>
+               
 
                 <button 
                     id = "Quit"
