@@ -152,12 +152,12 @@ data= [
             },
         
             {
-                'question': 'my seventh question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Tintin and Sandeep are very alike. What is their greatest similarity?',
+                'A': 'Tuft Hairstyle',
+                'B': 'Profession',
+                'C': 'Country of residence',
+                'D': 'Pet',
+                'correct': 'D'
             },
         
             {
@@ -428,21 +428,21 @@ data= [
             },
         
             {
-                'question': 'my sixth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Definition of Sandeep? NOT the urban dictionary version :)  --- Try splitting the name into two.',
+                'A': 'Kind Spirit',
+                'B': 'Revolution',
+                'C': 'One who gives light in day and night',
+                'D': 'Starry Depth',
+                'correct': 'C'
             },
         
             {
-                'question': 'my seventh question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'How many English words can you make with SANDEEP (e.g. deep)?',
+                'A': '11',
+                'B': '27',
+                'C': '41',
+                'D': '89',
+                'correct': 'D'
             },
         
             {
