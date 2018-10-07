@@ -23,25 +23,44 @@
 <div class = "row">
   <div class = "column1" align="center">
     <h1 class="Title">HAPPY 50TH<br>BIRTHDAY</h1>
+    <div>
+      <div class="mySlides fade">
+        <img src="IndexImages/first.jpg" style="width:45%">
+        <div class="text">Caption Text</div>
+      </div>
 
-    <div class="mySlides fade">
-      <img src="IndexImages/first.png" style="width:55%">
-      <div class="text">Caption Text</div>
+      <div class="mySlides fade">
+        <img src="IndexImages/second.jpg" style="width:45%">
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="IndexImages/third.jpg" style="width:45%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="IndexImages/fourth.jpg" style="width:45%">
+        <div class="text">Caption Four</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="IndexImages/fifth.jpg" style="width:45%">
+        <div class="text">Caption Five</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="IndexImages/sixth.jpg" style="width:45%">
+        <div class="text">Caption Six</div>
+      </div>
+
     </div>
-
-    <div class="mySlides fade">
-      <img src="IndexImages/second.png" style="width:55%">
-      <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-      <img src="IndexImages/third.png" style="width:55%">
-      <div class="text">Caption Three</div>
-    </div>
-
     <br>
 
     <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span>
       <span class="dot"></span>
@@ -49,10 +68,38 @@
 
   </div>
   <div class = "column2" align="center">
-    <marquee behavior="scroll" direction="up" height="720">
+
+    <!-- <marquee behavior="scroll" direction="up" height="720" scrollamount="4">
         <p> Here is some scrolling text... right to left! </p>
-        <p> Even more text next </p>
-    </marquee>
+        <p>
+          The poverty of the English language renders any description of Papa to be significantly inadequate. It is beyond the human tongue to be able to capture Papa's numerous qualities, but I can only tenaciously attempt to offer a glimpse of this incredible human being. Although these words are usually reserved for the divine, it is just as appropriate to define Papa as being omniscient and omnibenevolent. Those who have had the pleasure of ever engaging with my father, will attest to the fact that his wealth of knowledge coupled with his compassion is unparalleled in this universe. Love you Papa.</br> <p align="right">Vyas, 2018</p>
+        </p>
+    </marquee> -->
+
+<!-- When I add more comments, I need to manually increase the size of
+the scrolling length of the .wording class in the css file! -->
+    <div class = "example3">
+      <div class="wording">
+      <p> Here is some scrolling text... right to left! </p>
+      <p> </p>
+      <p>
+        The poverty of the English language renders any description of Papa to be significantly inadequate. It is beyond the human tongue to be able to capture Papa's numerous qualities, but I can only tenaciously attempt to offer a glimpse of this incredible human being. Although these words are usually reserved for the divine, it is just as appropriate to define Papa as being omniscient and omnibenevolent. Those who have had the pleasure of ever engaging with my father, will attest to the fact that his wealth of knowledge coupled with his compassion is unparalleled in this universe. Love you Papa. <p align="right">Vyas, 2018</p>
+      </p>
+      <p> </p>
+      <p>
+        The poverty of the English language renders any description of Papa to be significantly inadequate. It is beyond the human tongue to be able to capture Papa's numerous qualities, but I can only tenaciously attempt to offer a glimpse of this incredible human being. Although these words are usually reserved for the divine, it is just as appropriate to define Papa as being omniscient and omnibenevolent. Those who have had the pleasure of ever engaging with my father, will attest to the fact that his wealth of knowledge coupled with his compassion is unparalleled in this universe. Love you Papa.
+      </p>
+      <p>
+        The poverty of the English language renders any description of Papa to be significantly inadequate. It is beyond the human tongue to be able to capture Papa's numerous qualities, but I can only tenaciously attempt to offer a glimpse of this incredible human being. Although these words are usually reserved for the divine, it is just as appropriate to define Papa as being omniscient and omnibenevolent. Those who have had the pleasure of ever engaging with my father, will attest to the fact that his wealth of knowledge coupled with his compassion is unparalleled in this universe. Love you Papa.
+      </p>
+      <p>
+        The poverty of the English language renders any description of Papa to be significantly inadequate. It is beyond the human tongue to be able to capture Papa's numerous qualities, but I can only tenaciously attempt to offer a glimpse of this incredible human being. Although these words are usually reserved for the divine, it is just as appropriate to define Papa as being omniscient and omnibenevolent. Those who have had the pleasure of ever engaging with my father, will attest to the fact that his wealth of knowledge coupled with his compassion is unparalleled in this universe. Love you Papa.
+      </p>
+      <p>
+        The poverty of the English language renders any description of Papa to be significantly inadequate. It is beyond the human tongue to be able to capture Papa's numerous qualities, but I can only tenaciously attempt to offer a glimpse of this incredible human being. Although these words are usually reserved for the divine, it is just as appropriate to define Papa as being omniscient and omnibenevolent. Those who have had the pleasure of ever engaging with my father, will attest to the fact that his wealth of knowledge coupled with his compassion is unparalleled in this universe. Love you Papa.
+      </p>
+    </div>
+  </div>
   </div>
 </div>
 
@@ -75,7 +122,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 </script>
 
