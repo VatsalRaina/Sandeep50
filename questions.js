@@ -52,7 +52,7 @@ data= [
                 'A': '... -.. / .- ... / ..-',
                 'B': '.- ... / -.. ..-. / .-',
                 'C': '... --- / -.. --- / ..',
-                'D': '.- ... / -.. ..-. / .-',
+                'D': '..-- ... / -... ..-. / .',
                 'correct': 'C'
             },
         
@@ -125,7 +125,7 @@ data= [
             },
         
             {
-                'question': '26 years ago, Sandeep\'s life was changed dramatically forever by a special someone- a young doctor- his wife (and life)! How old was Sandeep when he first met her?',
+                'question': '26 years ago, Sandeep\'s life was changed dramatically forever by a special someone - a young doctor - his wife (and life)! How old was Sandeep when he first met her?',
                 'A': '21',
                 'B': '19',
                 'C': '14',
@@ -211,7 +211,7 @@ data= [
             },
         
             {
-                'question': 'Writing is one of Sandeep\'s favourite hobbies. Name the newspaper, the fourth largest in a nation of 1 billion, that frequently publishes Sandeep\'s articles',
+                'question': 'Writing is one of Sandeep\'s favourite hobbies. Name the newspaper, the fourth largest in a nation of 1 billion, that frequently publishes Sandeep\'s articles.',
                 'A': 'The Metro',
                 'B': 'PLA Daily',
                 'C': 'Danik Jagran',
@@ -229,7 +229,7 @@ data= [
             },
         
             {
-                'question': 'Sandeep\'s culinary skills are not to be forgotten. Which dish would you ask Sandeep to cook for you if you wanted to experience his speciality (other than his omelette ofcourse)?',
+                'question': 'Sandeep\'s culinary skills are not to be forgotten. Which dish would you ask Sandeep to cook for you if you wanted to experience his speciality (other than his omelette of course)?',
                 'A': 'Biryani',
                 'B': 'Paella',
                 'C': 'Aloo Gobi',
@@ -383,7 +383,7 @@ data= [
         'category': 'Miscellaneous',
         'categoryQuestions': [
             {
-                'question': 'What is Sandeep\'s favourite colour? This colour has a wavelength of 470 nm',
+                'question': 'What is Sandeep\'s favourite colour? This colour has a wavelength of 470 nm.',
                 'A': 'Red',
                 'B': 'Blue',
                 'C': 'Black',
@@ -402,7 +402,7 @@ data= [
         
             {
                 'question': 'What do you call a shape with as many sides as the number of candles placed on the cake on 27th October this year?',
-                'A': 'circle',
+                'A': 'Circle',
                 'B': 'Pentahedron',
                 'C': 'Pentacosagon',
                 'D': 'Pentacontagon',
@@ -419,7 +419,7 @@ data= [
             },
         
             {
-                'question': 'How many Sandeep\'s would you need to completely fill an empty planet the size of Earth?',
+                'question': 'How many Sandeeps would you need to completely fill an empty planet the size of Earth?',
                 'A': '1',
                 'B': '100',
                 'C': '100,000',

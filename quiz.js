@@ -98,7 +98,8 @@ function correct(answer){
         //check to see this is last question
         if(questionCounter==LAST){
             //deal with end scenario
-            window.alert("DONE - 100% in this section!")
+            giveup();
+            answer.style.backgroundColor="aqua";
         }
 
         displayQuestion();
