@@ -161,30 +161,30 @@ data= [
             },
         
             {
-                'question': 'my eight question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'Antique furniture is Sandeep\'s Achilles heel - what item did he purchase?',
+                'A': 'Armchair',
+                'B': 'Dressing Table',
+                'C': 'Lyre Bench',
+                'D': 'Kitchen Table',
+                'correct': 'C'
+            },
+        
+            {
+                'question': 'Sandeep annually uses the fruit of a tree in his garden to make jam. Apparently this tree belongs to the rose family. What is this fruit? ',
+                'A': 'Pear',
+                'B': 'Peach',
+                'C': 'Grape',
+                'D': 'Lime',
                 'correct': 'A'
             },
         
             {
-                'question': 'my ninth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
-            },
-        
-            {
-                'question': 'my tenth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Easy one to end this section - what is Sandeep\'s favourite dish? Do recall where Sandeep is from!',
+                'A': 'Chicken Vindaloo',
+                'B': 'Rogan Josh',
+                'C': 'Paneer',
+                'D': 'Idli Sambar',
+                'correct': 'B'
             }
         ]
     },
@@ -247,39 +247,39 @@ data= [
             },
         
             {
-                'question': 'my seventh question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Where did Sandeep take Anita for their 26th marriage anniversary, amigo?',
+                'A': 'Prague',
+                'B': 'Warsaw',
+                'C': 'Rome',
+                'D': 'Barcelona',
+                'correct': 'D'
             },
         
             {
-                'question': 'my eight question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'DIY and men is not an incorrect stereotype for Sandeep. There was a time when Sandeep would collect stones from walks in the countrside. What was he building?',
+                'A': 'A wall around his vegetable patch',
+                'B': 'A brook for the garden',
+                'C': 'He was filling gaps in the driveway',
+                'D': 'A stone barbecue',
+                'correct': 'B'
             },
         
             {
-                'question': 'my ninth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'What was one of Sandeep\'s craziest holiday plans that never came into fruition?',
+                'A': 'Bunjee jumping in the Grand Canyon',
+                'B': 'Driving from London to Moscow, covering 20 European cities',
+                'C': 'Parachuting into the Atlantic Ocean',
+                'D': 'Deep sea diving to the Great Barrier Reef',
+                'correct': 'B'
             },
         
             {
-                'question': 'my tenth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Name that song that topped British charts and also grew became one of Sandeep\'s favourites - no rush, think slowly.',
+                'A': 'Call Me Maybe',
+                'B': 'Happy',
+                'C': 'Uptown Funk',
+                'D': 'Despacito',
+                'correct': 'D'
             }
         ]
     },
@@ -287,6 +287,16 @@ data= [
     {
         'category': 'Work-Life',
         'categoryQuestions': [
+
+            {
+                'question': 'Which industry does Sandeep work in?',
+                'A': 'Material Science',
+                'B': 'Telecommunications',
+                'C': 'Aeronautical',
+                'D': 'Civil Engineering',
+                'correct': 'B'
+            },
+
             {
                 'question': 'Name the currency used by the country in which Sandeep worked for 3 years?',
                 'A': 'Dollar',
@@ -333,48 +343,39 @@ data= [
             },
         
             {
-                'question': 'my sixth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'MyCom was a company Sandeep worked at. Which Middle Eastern country did the owners of the company belong to? In those days a lot of Shawarmas were eaten.',
+                'A': 'Iran',
+                'B': 'Qatar',
+                'C': 'Lebanon',
+                'D': 'Yemen',
+                'correct': 'C'
+            },
+        
+            {
+                'question': 'All great people open a company at some point in their life - so of course Sandeep opened on as well; what had he named it?',
+                'A': 'ComCom',
+                'B': 'TeleDeep',
+                'C': 'Sandile',
+                'D': 'RainaWire',
                 'correct': 'A'
             },
         
             {
-                'question': 'my seventh question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'Which is the modal city Sandeep has visited for work related travel? ',
+                'A': 'Dallas',
+                'B': 'Nairobi',
+                'C': 'Beirut',
+                'D': 'Bangkok',
                 'correct': 'A'
             },
         
             {
-                'question': 'my eight question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
-            },
-        
-            {
-                'question': 'my ninth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
-            },
-        
-            {
-                'question': 'my tenth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Tough one to end with. For the company that Sandeep gave the most years of his working life, name the product that the company is most famous for.',
+                'A': 'Cables',
+                'B': 'Satellites',
+                'C': 'Cloud Platform Services',
+                'D': 'Oscilloscopes',
+                'correct': 'D'
             }
         ]
     },
