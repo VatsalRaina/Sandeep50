@@ -447,20 +447,20 @@ data= [
             },
         
             {
-                'question': 'my eight question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
-                'correct': 'A'
+                'question': 'Which of these has Sandeep never eaten?',
+                'A': 'Snail',
+                'B': 'Zebra',
+                'C': 'Reindeer',
+                'D': 'Pigeon',
+                'correct': 'B'
             },
         
             {
-                'question': 'my ninth question',
-                'A': 'option A',
-                'B': 'option B',
-                'C': 'option C',
-                'D': 'option D',
+                'question': 'SANDEEP',
+                'A': 'TBOFFQ',
+                'B': 'ASDWERT',
+                'C': 'RYTT',
+                'D': 'PIJBHI',
                 'correct': 'A'
             },
         
