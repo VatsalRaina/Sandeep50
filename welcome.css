@@ -198,18 +198,23 @@ img {
  -webkit-transform:translateY(100%);
  transform:translateY(100%);
  /* Apply animation to this element */
- -moz-animation: example3 30s linear infinite;
- -webkit-animation: example3 30s linear infinite;
- animation: example3 30s linear infinite;
+ -moz-animation: example3 70s linear infinite;
+ -webkit-animation: example3 70s linear infinite;
+ animation: example3 70s linear infinite;
 }
+
+.poem {
+  font-size: 85%;
+}
+
 /* Move it (define the animation) */
 @-moz-keyframes example3 {
  0%   { -moz-transform: translateY(100%); }
- 100% { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(-500%); }
 }
 @-webkit-keyframes example3 {
  0%   { -webkit-transform: translateY(100%); }
- 100% { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(-500%); }
 }
 @keyframes example3 {
  0%   {
@@ -218,8 +223,8 @@ img {
  transform: translateY(100%);
  }
  100% {
- -moz-transform: translateY(-100%); /* Firefox bug fix */
- -webkit-transform: translateY(-100%); /* Firefox bug fix */
- transform: translateY(-100%);
+ -moz-transform: translateY(-200%); /* Firefox bug fix */
+ -webkit-transform: translateY(-200%); /* Firefox bug fix */
+ transform: translateY(-200%);
  }
 }
