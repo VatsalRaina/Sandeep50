@@ -1,0 +1,4 @@
+Domain: sandeep50.com
+Host: 1&1
+pin: 7075
+pwd: Thisis10!
