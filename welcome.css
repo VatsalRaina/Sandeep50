@@ -80,9 +80,9 @@ img {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 0.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
 }
 
 @-webkit-keyframes fade {
@@ -198,9 +198,9 @@ img {
  -webkit-transform:translateY(100%);
  transform:translateY(100%);
  /* Apply animation to this element */
- -moz-animation: example3 70s linear infinite;
- -webkit-animation: example3 70s linear infinite;
- animation: example3 70s linear infinite;
+ -moz-animation: example3 200s linear infinite;
+ -webkit-animation: example3 200s linear infinite;
+ animation: example3 200s linear infinite;
 }
 
 .poem {
@@ -210,11 +210,11 @@ img {
 /* Move it (define the animation) */
 @-moz-keyframes example3 {
  0%   { -moz-transform: translateY(100%); }
- 100% { -moz-transform: translateY(-500%); }
+ 100% { -moz-transform: translateY(-900%); }
 }
 @-webkit-keyframes example3 {
  0%   { -webkit-transform: translateY(100%); }
- 100% { -webkit-transform: translateY(-500%); }
+ 100% { -webkit-transform: translateY(-900%); }
 }
 @keyframes example3 {
  0%   {
@@ -223,8 +223,8 @@ img {
  transform: translateY(100%);
  }
  100% {
- -moz-transform: translateY(-200%); /* Firefox bug fix */
- -webkit-transform: translateY(-200%); /* Firefox bug fix */
- transform: translateY(-200%);
+ -moz-transform: translateY(-900%); /* Firefox bug fix */
+ -webkit-transform: translateY(-900%); /* Firefox bug fix */
+ transform: translateY(-900%);
  }
 }
